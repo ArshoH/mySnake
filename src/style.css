@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: brown;
+    /* position: absolute; */
+}
+.start{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(28, 241, 0);
+}
+.eat{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border:1px dashed red;
+    background-color: rgb(255, 196, 0);
+    position: absolute;
+}
+.big{
+    width: 500px;
+    height: 500px;
+    border:10px  solid gray ;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sorse{
+    width: 200px;
+    height: 80px;
+    background-color: aqua;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    border-radius: 20px 20px 10px 10px;
+}
+p{
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family:Tahoma;
+    /* text-transform: capitalize; */
+    font-style: oblique;
+    color: #E18727;
+}
